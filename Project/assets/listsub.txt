@@ -1,0 +1,17 @@
+{
+   "ARRAY":[
+      {
+         "SUB":"Math"
+      },
+      {
+         "SUB":"Sci"
+      },
+      {
+         "SUB":"Comgraph"
+      },
+      {
+         "SUB":"English"
+      }
+   ]
+}
+

@@ -1,0 +1,17 @@
+{
+   "ARRAY":[
+      {
+         "WEEK":"Week 1"
+      },
+      {
+         "WEEK":"Week 2"
+      },
+      {
+         "WEEK":"Week 3"
+      },
+      {
+         "WEEK":"Week 4"
+      }
+   ]
+}
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textt_pro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#A2CD5A"
+        android:text="       Profile"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imBack"
+                android:layout_width="90dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="25dp"
+                android:background="#A2CD5A"
+                android:src="@drawable/smlie" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/Multi_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:text="Name : Pattarapol Suradechanun" >
+
+                <requestFocus />
+            </MultiAutoCompleteTextView>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/Multi_major"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Major : AE" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/Multi_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Email : Pattarapol@hotmail.com" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/Multi_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Tel : 087-5516324 " />
+
+        </LinearLayout>
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/teacher_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_weight="0.00"
+        android:background="#1874CD"
+        android:text="  Log out  "
+        android:textColor="#ffffff"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/t_pro_subject_tab"
+            android:layout_width="105dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject" />
+
+        <Button
+            android:id="@+id/t_pro_search_tab"
+            android:layout_width="105dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/t_pro_profile_tab"
+            android:layout_width="105dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:text="Profile" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="#A2CD5A"
+        android:text="Data list"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/t_pro_subject_tab"
+            android:layout_width="105dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            android:text="Subject" />
+
+        <Button
+            android:id="@+id/t_pro_search_tab"
+            android:layout_width="105dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/t_pro_profile_tab"
+            android:layout_width="105dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            android:text="Profile" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listviewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textData"
+        android:layout_above="@id/bottom"
+        android:layout_marginTop="10dp" >
+    </ListView>
+
+</RelativeLayout>

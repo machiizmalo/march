@@ -1,0 +1,33 @@
+{
+   "ARRAY":[
+      {
+         "ID":"540107070001",
+         "NAME":"Pattarapol Suradechanun",
+         "SCORE":10.5,
+         "MIDTERM":15,
+         "FINAL":45
+      },
+      {
+         "ID":"540107070002",
+         "NAME":"Kanapot Buntanat",
+         "SCORE":11.0,
+         "MIDTERM":16,
+         "FINAL":46
+      },
+      {
+         "ID":"540107070003",
+         "NAME":"Kamonlak Sawangchop",
+         "SCORE":11.5,
+         "MIDTERM":17,
+         "FINAL":47
+      },
+      {
+         "ID":"540107070004",
+         "NAME":"Thitipattara Sangngam",
+         "SCORE":12.0,
+         "MIDTERM":18,
+         "FINAL":49
+      }
+   ]
+}
+

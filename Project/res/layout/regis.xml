@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textRegis"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#A2CD5A"
+        android:text="       Register"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <Button
+        android:id="@+id/button_parent_regis"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:background="#A2CD5A"
+        android:text="  Parent  "
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button_student_regis"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:background="#A2CD5A"
+        android:text="  Student  "
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+</LinearLayout>
